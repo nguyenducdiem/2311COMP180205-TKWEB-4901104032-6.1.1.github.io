@@ -1,0 +1,57 @@
+#aquarium {
+  width: 1300px;
+  height: 400px;
+  
+  margin: auto;
+  position: relative;
+
+  }
+  
+  .shark {
+    position: absolute;
+    animation: swim 5s linear infinite alternate;
+  }
+  
+  @keyframes swim {
+    from { left: 0px;}
+        to { left: 1100px;}}
+  .faint {
+    position: absolute;
+    animation: tho 7s linear infinite alternate;
+
+  }
+  @keyframes tho {
+    from { left: 0px;}
+    to { left: 400px;transform: matrix(0.707107 , 0.707107, -0.707107, 0.707107,150,0);}  
+
+  }
+  .turtle {
+    position: absolute;
+    animation: rua 10s linear infinite alternate;
+
+  }
+  @keyframes rua {
+    from { left: 600px;}
+    to { left: 1000px;transform: matrix(0.707107 , 0.707107, -0.707107, 0.707107,150,0);}  
+
+  }
+  .diver {
+    position: absolute;
+    animation: bb 2s linear infinite alternate;
+
+  }
+  @keyframes bb {
+    from { top: 200px;}
+    to { top: 0px;}
+  }
+  button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+  body{
+    background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/12/18/anh-nen-dai-duong-cho-may-tinh_110517927.jpg);
+  }
